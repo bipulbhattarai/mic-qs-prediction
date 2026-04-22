@@ -1,0 +1,325 @@
+# Permeh 2021 - Bioelectrochemistry 142 (2021) 107922
+# Carbon steel, marine/brackish, 15-day lab experiment
+# Conditions: Open/Porous/Laminate crevice × SRB/No-SRB × De-aerated/Aerated
+# pH 6.5-8, Sulfate 2000 ppm (high sulfate condition), SRB inoculated
+
+Paper: Permeh2021
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.2 | Sulfate: 2000 | H2S: 5 | DO: 0 | Salinity: 15
+Environment: seawater | Study: lab | Days: 15
+MIC rate: 85 | Pitting: yes
+Note: Open surface de-aerated SRB — high SRB 10^8/mL, iron sulfide deposits, pits observed
+---
+Paper: Permeh2021
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.2 | Sulfate: 2000 | H2S: 3 | DO: 6 | Salinity: 15
+Environment: seawater | Study: lab | Days: 15
+MIC rate: 35 | Pitting: no
+Note: Open surface naturally aerated SRB — SRB activity suppressed by oxygen
+---
+Paper: Permeh2021
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.2 | Sulfate: 2000 | H2S: 8 | DO: 0 | Salinity: 15
+Environment: seawater | Study: lab | Days: 15
+MIC rate: 120 | Pitting: yes
+Note: Porous crevice de-aerated SRB — sustained SRB, mottled pitting
+---
+Paper: Permeh2021
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.2 | Sulfate: 2000 | H2S: 10 | DO: 0 | Salinity: 15
+Environment: seawater | Study: lab | Days: 15
+MIC rate: 145 | Pitting: yes
+Note: Laminate crevice de-aerated SRB — most severe, crevice corrosion + SRB
+---
+Paper: Permeh2021
+Metal: carbon steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 25 | pH: 7.2 | Sulfate: 500 | H2S: 0 | DO: 8 | Salinity: 15
+Environment: seawater | Study: lab | Days: 15
+MIC rate: 5 | Pitting: no
+Note: Open surface non-inoculated control — baseline general corrosion
+---
+Paper: XuGu2014
+Source: Int. Biodeterioration & Biodegradation 91 (2014) 74-81
+Metal: carbon steel (C1018)
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 37 | pH: 6.5 | Sulfate: 500 | H2S: 5 | DO: 0 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 100 | Pitting: yes
+Note: Full medium control, D. vulgaris ATCC 7757, WL=0.0015 g/cm2, avg pit 3.8um
+---
+Paper: XuGu2014
+Metal: carbon steel (C1018)
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 37 | pH: 6.5 | Sulfate: 500 | H2S: 8 | DO: 0 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 113 | Pitting: yes
+Note: 90% carbon starvation, more aggressive, WL=0.0017 g/cm2, max pit 10um
+---
+Paper: XuGu2014
+Metal: carbon steel (C1018)
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 37 | pH: 6.5 | Sulfate: 500 | H2S: 10 | DO: 0 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 126 | Pitting: yes
+Note: 99% carbon starvation, most WL, WL=0.0019 g/cm2, max pit 7.3um
+---
+Paper: XuGu2014
+Metal: carbon steel (C1018)
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 37 | pH: 6.5 | Sulfate: 200 | H2S: 2 | DO: 0 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 80 | Pitting: no
+Note: 100% carbon starvation extreme, biofilm too weak, WL=0.0012 g/cm2
+---
+Paper: Chen2021_Coatings
+Source: Coatings 2021, 11, 625
+Metal: X80 pipeline steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 4.5 | Sulfate: 10 | H2S: 5 | DO: 0 | Salinity: 0
+Environment: soil | Study: lab | Days: 14
+MIC rate: 157 | Pitting: yes
+Note: D.desulfuricans in acidic soil, max pit 6.01um/14days, biofilm 20um thick, FeS products
+---
+Paper: Chen2021_Coatings_ctrl
+Source: Coatings 2021, 11, 625
+Metal: X80 pipeline steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 25 | pH: 4.5 | Sulfate: 10 | H2S: 0 | DO: 0 | Salinity: 0
+Environment: soil | Study: lab | Days: 14
+MIC rate: 60 | Pitting: yes
+Note: Abiotic control in same acidic soil, max pit 2.32um/14days
+---
+Paper: Chen2021_early_stage
+Source: Coatings 2021, 11, 625 - EIS Rct day 1-4
+Metal: X80 pipeline steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 4.5 | Sulfate: 10 | H2S: 2 | DO: 0 | Salinity: 0
+Environment: soil | Study: lab | Days: 4
+MIC rate: 30 | Pitting: no
+Note: Early biofilm inhibits corrosion - Rct 13950 ohm.cm2 vs 6754 abiotic (INHIBITION phase)
+---
+Paper: Chen2021_late_stage
+Source: Coatings 2021, 11, 625 - EIS Rct day 14
+Metal: X80 pipeline steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 4.5 | Sulfate: 10 | H2S: 8 | DO: 0 | Salinity: 0
+Environment: soil | Study: lab | Days: 14
+MIC rate: 190 | Pitting: yes
+Note: Late stage SRB accelerates - Rct 1467 vs 4640 abiotic (3x more corrosive)
+---
+Paper: Xu2024_Frontiers_13Cr
+Source: Frontiers in Materials 2024, fmats.2024.1407655
+Metal: 13Cr stainless steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.0 | Sulfate: 2000 | H2S: 15 | DO: 0 | Salinity: 35
+Environment: seawater | Study: lab | Days: 7
+MIC rate: 260 | Pitting: yes
+Note: No treatment, D.ferrophilus, 3.9e7 cells/cm2, WL=3.8 mg/cm2, 0.26mm/a uniform rate
+---
+Paper: Xu2024_Frontiers_13Cr_THPS50
+Source: Frontiers in Materials 2024, fmats.2024.1407655
+Metal: 13Cr stainless steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 25 | pH: 7.0 | Sulfate: 2000 | H2S: 8 | DO: 0 | Salinity: 35
+Environment: seawater | Study: lab | Days: 7
+MIC rate: 150 | Pitting: yes
+Note: 50ppm THPS biocide, sessile cells 8e6/cm2, WL=2.2mg/cm2, 0.15mm/a, 42% reduction
+---
+Paper: Xu2024_Frontiers_13Cr_THPS50_PepA
+Source: Frontiers in Materials 2024, fmats.2024.1407655
+Metal: 13Cr stainless steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: yes | AHL: no
+Temp: 25 | pH: 7.0 | Sulfate: 2000 | H2S: 5 | DO: 0 | Salinity: 35
+Environment: seawater | Study: lab | Days: 7
+MIC rate: 100 | Pitting: yes
+Note: 50ppm THPS + 100nM Peptide A (biofilm dispersant = QS inhibitor proxy), 2.4e6 cells/cm2, 0.10mm/a
+---
+Paper: Xu2024_Frontiers_13Cr_THPS100
+Source: Frontiers in Materials 2024, fmats.2024.1407655
+Metal: 13Cr stainless steel
+SRB: yes | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 25 | pH: 7.0 | Sulfate: 2000 | H2S: 1 | DO: 0 | Salinity: 35
+Environment: seawater | Study: lab | Days: 7
+MIC rate: 20 | Pitting: no
+Note: 100ppm THPS, no detectable sessile cells, WL=0.3mg/cm2, 0.02mm/a, 92% inhibition
+---
+Paper: Xu2024_Frontiers_13Cr_abiotic
+Source: Frontiers in Materials 2024, fmats.2024.1407655
+Metal: 13Cr stainless steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 25 | pH: 7.0 | Sulfate: 2000 | H2S: 0 | DO: 0 | Salinity: 35
+Environment: seawater | Study: lab | Days: 7
+MIC rate: 0.5 | Pitting: no
+Note: Abiotic control, no detectable weight loss, negligible baseline corrosion
+---
+Paper: Scarascia2019_AHL
+Source: Scarascia et al. 2019 D.vulgaris QS carbon steel
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 30 | pH: 7.0 | Sulfate: 480 | H2S: 8 | DO: 0 | Salinity: 3
+Environment: lab | Study: lab | Days: 7
+MIC rate: 410 | Pitting: yes
+Note: AHL-treated D.vulgaris weight loss 0.41mm/yr peak 1.1mm/yr day5 highest pit depth LuxR genes upregulated
+---
+Paper: Scarascia2019_Control
+Source: Scarascia et al. 2019 D.vulgaris control
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: yes | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 480 | H2S: 5 | DO: 0 | Salinity: 3
+Environment: lab | Study: lab | Days: 7
+MIC rate: 200 | Pitting: yes
+Note: No treatment control D.vulgaris naturally produces AHL intermediate corrosion rate
+---
+Paper: Scarascia2019_QSI
+Source: Scarascia et al. 2019 D.vulgaris QS inhibition
+Metal: carbon steel
+SRB: yes | IOB: no | APB: no | Biofilm: yes
+QS: no | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 480 | H2S: 2 | DO: 0 | Salinity: 3
+Environment: lab | Study: lab | Days: 7
+MIC rate: 80 | Pitting: no
+Note: QSI-treated D.vulgaris lowest corrosion 0.08mm/yr sulfate reduction reduced biofilm cells lower
+---
+Paper: Scarascia2019_Abiotic
+Source: Scarascia et al. 2019 abiotic control
+Metal: carbon steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 480 | H2S: 0 | DO: 0 | Salinity: 3
+Environment: lab | Study: lab | Days: 7
+MIC rate: 2 | Pitting: no
+Note: Abiotic control no surface pits negligible corrosion
+---
+Paper: Wu2024_AbioticControl
+Metal: carbon steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 8 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 394 | Pitting: yes
+Note: Sterile abiotic control no bacteria pit depth 16.82um
+---
+Paper: Wu2024_Abiotic_EPL
+Metal: carbon steel
+SRB: no | IOB: no | APB: no | Biofilm: no
+QS: no | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 8 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 306 | Pitting: yes
+Note: Sterile abiotic plus EPL antimicrobial lowest corrosion pit depth 11.97um
+---
+Paper: Wu2024_PA_Untreated
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 30 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 6 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 480 | Pitting: yes
+Note: P.aeruginosa biofilm untreated highest corrosion QS active pit depth 27.86um biofilm 21.56um thick
+---
+Paper: Wu2024_PA_EPL_Treated
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: no | AHL: no
+Temp: 30 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 6 | Salinity: 0
+Environment: lab | Study: lab | Days: 7
+MIC rate: 407 | Pitting: yes
+Note: P.aeruginosa plus EPL QS inhibited reduced biofilm 5.99um thick pit depth 18.52um
+---
+Paper: Jia2017_Pregrowth_2d
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 2
+MIC rate: 632 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 2-day pre-growth full LB-NO3 weight loss 1.1mg/cm2 pit 3.0um
+---
+Paper: Jia2017_Control_FullCarbon
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 246 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB control full carbon source weight loss 1.5mg/cm2 pit 5.4um
+---
+Paper: Jia2017_90pctCarbonReduction
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 345 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 90pct carbon reduction weight loss 2.1mg/cm2 pit 10.6um
+---
+Paper: Jia2017_100pctCarbonReduction
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 509 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 100pct carbon starvation highest corrosion weight loss 3.1mg/cm2 pit 17.0um
+---
+Paper: Jia2017_Pregrowth_2d
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 2
+MIC rate: 632 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 2-day pre-growth full LB-NO3 weight loss 1.1mg/cm2 pit 3.0um
+---
+Paper: Jia2017_Control_FullCarbon
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 246 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB control full carbon source weight loss 1.5mg/cm2 pit 5.4um
+---
+Paper: Jia2017_90pctCarbonReduction
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 345 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 90pct carbon reduction weight loss 2.1mg/cm2 pit 10.6um
+---
+Paper: Jia2017_100pctCarbonReduction
+Metal: carbon steel
+SRB: no | IOB: no | APB: yes | Biofilm: yes
+QS: yes | AHL: yes
+Temp: 37 | pH: 7.0 | Sulfate: 0 | H2S: 0 | DO: 0 | Salinity: 5
+Environment: lab | Study: lab | Days: 7
+MIC rate: 509 | Pitting: yes
+Note: P.aeruginosa PAO1 NRB 100pct carbon starvation highest corrosion weight loss 3.1mg/cm2 pit 17.0um
+---

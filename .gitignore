@@ -1,0 +1,8 @@
+.DS_Store
+data/raw/*.zip
+data/raw/*.jsonl
+data/genomes/
+models/
+data/processed/
+__pycache__/
+*.pyc
